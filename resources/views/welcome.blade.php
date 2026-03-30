@@ -265,9 +265,9 @@
             <label for="task-priority">Priority *</label>
             <select id="task-priority">
                 <option value="">Select priority…</option>
-                <option value="high">🔴 High</option>
-                <option value="medium">🟡 Medium</option>
-                <option value="low">🟢 Low</option>
+                <option value="high"> High</option>
+                <option value="medium"> Medium</option>
+                <option value="low"> Low</option>
             </select>
         </div>
 
@@ -284,7 +284,7 @@
             <input id="report-date" type="date" />
         </div>
 
-        <button class="btn btn-report" onclick="fetchReport()">📊 View Report</button>
+        <button class="btn btn-report" onclick="fetchReport()"> View Report</button>
     </aside>
 
     <!-- MAIN: Task list -->
@@ -313,7 +313,7 @@
 <div class="modal-overlay" id="report-modal">
     <div class="modal">
         <button class="modal-close" onclick="closeReport()">✕</button>
-        <h3>📊 Daily Report — <span id="report-date-label"></span></h3>
+        <h3> Daily Report — <span id="report-date-label"></span></h3>
         <div id="report-content"></div>
     </div>
 </div>
