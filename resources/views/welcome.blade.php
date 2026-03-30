@@ -241,7 +241,7 @@
 
 <header>
     <h1>Task<span>API</span></h1>
-    <span class="version-badge">v1.0</span>
+    <!-- <span class="version-badge">v1.0</span> -->
 </header>
 
 <div class="layout">
